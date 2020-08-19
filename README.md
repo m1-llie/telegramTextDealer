@@ -1,5 +1,5 @@
 # telegramTextDealer
-telegram spider aiming at multiple groups, with texts-cleaning and jieba-cutting stuff ---> 针对telegram群组的记录爬取、文本清洗及分词等处理
+telegram spider aiming at Chinese-based groups, with texts-cleaning and jieba-cutting stuff ---> 针对telegram群组的中文记录爬取、文本清洗及分词等处理
 
 ## 01 爬取指定telegram群组
 spider功能由[Kosat](https://github.com/Kosat)提供，repo在[这里](https://github.com/Kosat/telegram-messages-dump)。根据他的提示，安装telegram-messages-dump包后即可工作。（前提：有自己的telegram账号，要接收验证码）<br>
