@@ -6,7 +6,7 @@ spider功能由[Kosat](https://github.com/Kosat)提供，repo在[这里](https:/
 但是！他的只能通过一个命令行指定爬取一个telegram群组。因此我们改进了一下，希望给定group.txt来指明一个群组列表。<br>
 因此，你可以这样开始：<br>
 1.安装包：
-```python
+```
 pip install telegram-messages-dump
 ```
 2.爬取group.txt中指定的所有群组：
@@ -15,7 +15,7 @@ python whichGroup.py
 ```
 备注：<br>
 尝试发现本机挂代理仍可能有连接问题。建议放外国服务器上跑脚本。另外，爬取记录时的有关设置可以在whichGroup.py中更改，目前设置的是爬取群组建立以来的所有历史消息：<br>
-```python
+```
 nowcmd="telegram-messages-dump -c@"+item+" -p +8612345678901 -l 0 -o result"+str(nowid)+".log"
 ```
 可选参数等信息，从[Kosat](https://github.com/Kosat)的[repo](https://github.com/Kosat/telegram-messages-dump)介绍中拷贝过来了，供大家查阅：
