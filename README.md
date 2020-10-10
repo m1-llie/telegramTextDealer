@@ -1,5 +1,5 @@
 # telegramTextDealer
-telegram spider aiming at Chinese-based groups, with texts-cleaning and jieba-cutting stuff ---> 针对telegram群组的中文记录爬取、文本清洗及分词等处理<br>
+telegram spider aiming at Chinese-based groups, with texts-cleaning and jieba-cutting stuff ---> 针对telegram群组的中文记录爬取、文本清洗及分词等处理<br><br>
 完成时间：2020/08
 
 ## 01 爬取指定telegram群组
